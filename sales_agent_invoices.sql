@@ -4,4 +4,4 @@ INNER JOIN Customer
 ON Employee.EmployeeId = Customer.SupportRepId
 INNER JOIN Invoice
 ON Customer.CustomerId = Invoice.InvoiceId
-WHERE Title = "Sales Support Agent"  ;
+WHERE Title = "Sales Support Agent";

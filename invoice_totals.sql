@@ -3,4 +3,4 @@ FROM Customer
 INNER JOIN Employee
 ON Customer.SupportRepId = Employee.EmployeeId 
 INNER JOIN Invoice
-ON Customer.CustomerId = Invoice.CustomerId ;
+ON Customer.CustomerId = Invoice.CustomerId;
